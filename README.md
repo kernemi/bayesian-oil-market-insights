@@ -2,11 +2,7 @@
 
 ### Change Point Analysis and Statistical Modeling of Brent Oil Prices
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![PyMC](https://img.shields.io/badge/PyMC-5.0+-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-## 🎯 Project Overview
+##  Project Overview
 
 This project analyzes how major political and economic events affect Brent oil prices using **Bayesian Change Point Detection**. As a data scientist at **Birhan Energies**, we aim to provide data-driven insights to investors, policymakers, and energy companies navigating the complex global oil market.
 
@@ -244,67 +240,4 @@ This project develops expertise in:
 - Office Hours: Mon–Fri, 08:00–15:00 UTC
 
 ---
-
-## ⚠️ Important Notes
-
-### Correlation vs. Causation
-
-This analysis identifies **temporal correlations** between events and price changes. While we propose plausible causal mechanisms using economic reasoning, we **cannot definitively prove causation** due to:
-
-- Confounding factors
-- Omitted variables
-- Reverse causality
-- Potential spurious correlations
-
-All findings are presented as "consistent with" or "suggestive of" rather than "proves."
-
-### Model Limitations
-
-- Assumes normal distribution of returns
-- Single change point in basic model (can be extended)
-- Instantaneous parameter shifts
-- Daily data frequency may miss intraday dynamics
-
----
-
-## 📚 References
-
-### Change Point Analysis
-
-- [Bayesian Changepoint Detection with PyMC](https://www.pymc.io/)
-- [Change Point Detection in Time Series](https://forecastegy.com/posts/change-point-detection-time-series-python/)
-
-### Bayesian Methods
-
-- [MCMC Explained](https://towardsdatascience.com/monte-carlo-markov-chain-mcmc-explained-94e3a6c8de11)
-- Steel, M. F. J. "Bayesian Time Series Analysis"
-
-### Oil Market Data
-
-- [EIA - Brent Crude Oil Prices](https://www.eia.gov/)
-- [OPEC Monthly Oil Market Reports](https://www.opec.org/)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🤝 Contributing
-
-This is an educational project for 10 Academy's AI Mastery program. Contributions, suggestions, and feedback are welcome!
-
----
-
-## 📧 Contact
-
-**Developer**: Bekam Genene  
-**GitHub**: [@Bekamgenene](https://github.com/Bekamgenene)  
-**Project Repository**: [bayesian-oil-market-insights](https://github.com/Bekamgenene/bayesian-oil-market-insights)
-
----
-
-_Last Updated: February 5, 2026_
 
